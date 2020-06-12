@@ -15,7 +15,7 @@ process.env.NODE_ENV = "production";
 copySync(path.join(__dirname, "public"), path.join(__dirname, "build"));
 
 const skipSourcemap = process.argv.includes("--skip-sourcemap");
-const publicPath = "/intellisense-form-mobile/";
+const publicPath = "/";
 
 module.exports = {
   mode: "production",
