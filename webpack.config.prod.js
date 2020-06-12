@@ -20,7 +20,7 @@ const publicPath = "/";
 module.exports = {
   mode: "production",
 
-  entry: ["./src/App.tsx"],
+  entry: ["./src/RunApp.tsx"],
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "[name].[contenthash].js",
